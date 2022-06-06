@@ -1,0 +1,159 @@
+header {
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	background: url(imagens\\background-menu.png);
+	padding: 15px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 1040px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 50px;
+	right: 0;
+}
+
+nav li {
+	display: inline-block;
+	text-align: center;
+	
+	margin: 0 0 0 15px;
+}
+
+nav li:hover{
+	background-image: url(imagens\\tesourasx.png);
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+body{
+	background: url(imagens\\backtesoura.png);
+}
+
+form{
+	width: 1040px;
+	margin: 2% auto;
+	border: 1.5px solid #000000;
+	border-radius: 10px;
+}
+
+.informacoes {
+	font-size: 20px;
+	font-weight: bold;
+	width: 1040px;
+	margin: 3% auto 0  auto;
+	text-align: center;
+	padding: 2% 0 0 0 ;
+}
+
+
+.radio-posicao{
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+	margin: 1% 44%;
+
+}
+
+.input-padrao {
+	display: block;
+	font-size: 20px;
+	margin: 20px auto;
+	border-radius: 10px;
+}
+
+.input-caixa {
+	display: block;
+	font-size: 20px;
+	margin: 20px auto;
+	border-radius: 10px;
+}
+
+
+main p{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin: 3% 0 1% 0 ;
+}
+
+select {
+	display: block;
+	margin: 1% auto;
+}
+
+.checkbox{
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+	margin-top: 3%;
+	margin-left: 29%;
+}
+
+.enviar{
+	width: 40%;
+	background: #111111;
+	color: #C78C19;
+	font-size: 22px;
+	font-weight: bold;
+	display: block;
+	margin: 2% auto;
+	padding: 15px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+
+.enviar:hover {
+	background: #C78C19;
+	color: #111111;
+	
+}
+
+table{
+	margin: 20px auto 40px auto ;
+}
+
+thead{
+	background: #C78C19;
+	font-weight: bold;
+
+}
+
+td,th{
+	border:  1px solid #000000;
+	padding: 8px 15px ;
+	font-weight: bold;
+}
+
+footer{
+	text-align: center;
+	background: url(imagens\\bg.jpg);
+	padding: 40px 0;
+}
+
+footer img{
+	width: 5%;
+}
+
+
+.copyright{
+	color: #FFFFFF;
+	font-size: 13px;
+	margin-top: 20px;
+}
+

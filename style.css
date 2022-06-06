@@ -1,0 +1,181 @@
+body{
+
+		background: url(imagens\\backtesoura.png);
+}
+
+header {
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	padding: 14px 0;
+	background: url(imagens\\background-menu.png);
+}
+
+.caixa {
+
+	position: relative;
+	width: 1040px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 50px;
+	right: 0;
+}
+
+nav li {
+	display: inline-block;
+	text-align: center;
+	
+	margin: 0 0 0 15px;
+}
+
+nav li:hover{
+	background-image: url(imagens\\tesourasx.png);
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.principal{
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	width: 1200px;
+	margin: 20px auto 20px auto;
+	text-align: center;
+	box-sizing: border-box;
+	border: 1.5px solid #000000;
+	border-radius: 10px;
+
+}
+.principal ul{
+	display: inline-block;
+	vertical-align: top;
+	width:30%;
+	margin-top: 1%;
+	
+}
+
+.titulos{
+	font-weight: bold;
+	font-size: 27px;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.principal li{
+	font-size: 18px;
+	text-align: justify;
+	margin: 5% 20% 20px auto;
+}
+
+.principal li p{
+	margin: 8px 0;
+}
+
+em strong{
+	color:  red;
+}
+
+#banner{
+	width: 50%;
+	margin: 50px 0px 50px 0px;
+}
+
+
+.beneficios{
+	width: 1200px;
+	margin: 20px auto 20px auto;
+	box-sizing: border-box;
+	border: 1.5px solid #000000;
+	border-radius: 10px;
+}
+
+.beneficios ul{
+	display: inline-block;
+	vertical-align: top;
+	width:30%;
+	margin-top: 3%;
+}
+
+.beneficios li{
+	font-weight: bold;
+	font-size: 20px;
+	margin: 5% 0% 5% 32%;
+	text-align: inherit;
+}
+
+
+	
+
+.imagembeneficios
+{
+	display: inline-block;
+	width: 50%;
+	padding: 5px 250px 5px 250px;
+	border-radius: 100%;
+	width: 300px;
+	height: 300px;
+	opacity: 1;
+	transition: 400ms;
+}
+
+.imagembeneficios:hover{
+	opacity: 0.3;
+
+
+}
+
+
+
+.beneficios li:before{
+	content: "✂️";
+}
+
+footer{
+	text-align: center;
+	background: url(imagens\\bg.jpg);
+	padding: 40px 0;
+}
+
+footer img{
+	width: 5%;
+}
+
+.copyright{
+	color: #FFFFFF;
+	font-size: 13px;
+	margin-top: 20px;
+
+}
+
+.mapa{
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	font-size: 40px;
+	width: 1200px;
+	text-align: center;
+	margin: 20px auto;
+	
+}
+
+iframe{
+
+	margin: 30px 0 0 50px;
+	border-radius: 10px;
+}
+
+@media screem and (max-width:  480px) {
+	.caixa, .principal, .conteudo-beneficios,
+	{ auto;
+
+	}
+
+}
